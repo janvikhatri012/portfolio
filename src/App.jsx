@@ -1,11 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Formik } from "formik";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
-
-
 
 function App() {
   return (
