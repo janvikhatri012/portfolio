@@ -1,8 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-import Education from "./Education";
-import Contact from "./Contact";
+import { Formik } from "formik";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Education from "./pages/Education";
+import Contact from "./pages/Contact";
+
+
 
 function App() {
   return (
@@ -10,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Education" element={<Education />} />
+        <Route path="/education" element={<Education />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>

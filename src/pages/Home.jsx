@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import cv from "./assets/Jahnvi_CV.pdf";
-
+import cv from "../assets/Jahnvi_CV.pdf";
 function Home() {
   return (
     <div className="min-h-screen bg-gray-950 text-white">
